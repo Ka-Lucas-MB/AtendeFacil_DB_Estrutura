@@ -9,7 +9,7 @@ private String senha;
 private Perfil perfil; //Mapeamento da FK
 private UnidadeDeSaude unidade;//Mapeamento da FK
 
-
+//Construtor
 public Usuario(Integer id_usuario, String especialidade, String nome, String cpf, String registro, String senha,
         Perfil perfil, UnidadeDeSaude unidade) {
     this.id_usuario = id_usuario;
@@ -22,7 +22,7 @@ public Usuario(Integer id_usuario, String especialidade, String nome, String cpf
     this.unidade = unidade;
 }
 
-
+// Getters e Setters
 public Integer getId_usuario() {
     return id_usuario;
 }
