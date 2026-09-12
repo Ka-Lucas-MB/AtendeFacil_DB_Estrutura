@@ -1,5 +1,5 @@
 public class Atendimento {
-    private Integer id_atendimento;
+    private Long id_atendimento;
     private String horarioInicio;
     private String horarioFim;
     private String senha;
@@ -11,7 +11,7 @@ public class Atendimento {
 
 
     //Construtor
-    public Atendimento(Integer id_atendimento, String horarioInicio, String horarioFim, String senha,
+    public Atendimento(Long id_atendimento, String horarioInicio, String horarioFim, String senha,
             String classificacao, String statusAtendimento, Paciente paciente, Usuario usuario, Guiche guiche) {
         this.id_atendimento = id_atendimento;
         this.horarioInicio = horarioInicio;
@@ -26,11 +26,11 @@ public class Atendimento {
     }
     
     // Getters e Setters
-    public Integer getId_atendimento() {
+    public Long getId_atendimento() {
         return id_atendimento;
     }
 
-    public void setId_atendimento(Integer id_atendimento) {
+    public void setId_atendimento(Long id_atendimento) {
         this.id_atendimento = id_atendimento;
     }
 

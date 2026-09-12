@@ -1,6 +1,6 @@
 public class Usuario {
     
-private Integer id_usuario;
+private Long id_usuario;
 private String especialidade;
 private String nome;
 private String cpf;
@@ -10,7 +10,7 @@ private Perfil perfil; //Mapeamento da FK
 private UnidadeDeSaude unidade;//Mapeamento da FK
 
 //Construtor
-public Usuario(Integer id_usuario, String especialidade, String nome, String cpf, String registro, String senha,
+public Usuario(Long id_usuario, String especialidade, String nome, String cpf, String registro, String senha,
         Perfil perfil, UnidadeDeSaude unidade) {
     this.id_usuario = id_usuario;
     this.especialidade = especialidade;
@@ -23,12 +23,12 @@ public Usuario(Integer id_usuario, String especialidade, String nome, String cpf
 }
 
 // Getters e Setters
-public Integer getId_usuario() {
+public Long getId_usuario() {
     return id_usuario;
 }
 
 
-public void setId_usuario(Integer id_usuario) {
+public void setId_usuario(Long id_usuario) {
     this.id_usuario = id_usuario;
 }
 

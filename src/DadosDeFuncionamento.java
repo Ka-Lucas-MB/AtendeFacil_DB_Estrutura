@@ -1,21 +1,21 @@
 public class DadosDeFuncionamento {
-    private Integer id_dadosfunc;
+    private Long id_dadosfunc;
     private String dados_processados;
     private Atendimento atendimento; //Mapeamento da FK
     
     //Construtor
-    public DadosDeFuncionamento(Integer id_dadosfunc, String dados_processados, Atendimento atendimento) {
+    public DadosDeFuncionamento(Long id_dadosfunc, String dados_processados, Atendimento atendimento) {
         this.id_dadosfunc = id_dadosfunc;
         this.dados_processados = dados_processados;
         this.atendimento = atendimento;
     }
 
     // Getters e Setters
-    public Integer getId_dadosfunc() {
+    public Long getId_dadosfunc() {
         return id_dadosfunc;
     }
 
-    public void setId_dadosfunc(Integer id_dadosfunc) {
+    public void setId_dadosfunc(Long id_dadosfunc) {
         this.id_dadosfunc = id_dadosfunc;
     }
 

@@ -1,11 +1,11 @@
 public class Guiche {
-    private Integer id_guiche;
+    private Long id_guiche;
     private String numero;
     private String tipo;
     private String status;
 
     //Construtor
-    public Guiche(Integer id_guiche, String numero, String tipo, String status) {
+    public Guiche(Long id_guiche, String numero, String tipo, String status) {
         this.id_guiche = id_guiche;
         this.numero = numero;
         this.tipo = tipo;
@@ -13,12 +13,12 @@ public class Guiche {
     }
 
     // Getters e Setters
-    public Integer getId_guiche() {
+    public Long getId_guiche() {
         return id_guiche;
     }
 
 
-    public void setId_guiche(Integer id_guiche) {
+    public void setId_guiche(Long id_guiche) {
         this.id_guiche = id_guiche;
     }
 

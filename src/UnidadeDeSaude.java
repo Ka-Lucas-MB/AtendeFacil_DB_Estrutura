@@ -1,18 +1,19 @@
 public class UnidadeDeSaude {
-    private Integer id_unisaude;
+    private Long id_unisaude;
     private String nome;
     private String cep;
     private String rua;
     private String bairro;
     private String cidade;
     private String telefone;
+    
     private String telefone2;
     private String sala;
     private String sala2;
     
 
     //Construtor
-    public UnidadeDeSaude(Integer id_unisaude, String nome, String cep, String rua, String bairro, String cidade,
+    public UnidadeDeSaude(Long id_unisaude, String nome, String cep, String rua, String bairro, String cidade,
             String telefone, String telefone2, String sala, String sala2) {
         this.id_unisaude = id_unisaude;
         this.nome = nome;
@@ -28,11 +29,11 @@ public class UnidadeDeSaude {
 
 
     // Getters e Setters
-    public Integer getId_unisaude() {
+    public Long getId_unisaude() {
         return id_unisaude;
     }
 
-    public void setId_unisaude(Integer id_unisaude) {
+    public void setId_unisaude(Long id_unisaude) {
         this.id_unisaude = id_unisaude;
     }
 
